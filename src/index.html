@@ -6,19 +6,35 @@
     <title>Chart Page</title>
   </head>
   <body class="flex_sort">
-    <div id="pie_chart_area" class="area">
-      <canvas id="pie_chart_1" class="chart_box flex_sort">pie chart 1</canvas>
-      <div id="vertical">
-        <canvas id="pie_chart_2" class="chart_box flex_sort"
-          >pie chart 2</canvas
-        >
-        <canvas id="pie_chart_3" class="chart_box flex_sort"
-          >pie chart 3</canvas
-        >
+    <div id="pie_chart_area" class="area flex_sort">
+      <canvas
+        id="pie_chart_1"
+        class="chart_box flex_sort"
+        width="500"
+        height="500"
+      ></canvas>
+      <div id="vertical" class="flex_sort">
+        <canvas
+          id="pie_chart_2"
+          class="chart_box flex_sort"
+          width="235"
+          height="235"
+        ></canvas>
+        <canvas
+          id="pie_chart_3"
+          class="chart_box flex_sort"
+          width="235"
+          height="235"
+        ></canvas>
       </div>
     </div>
-    <div id="width_chart_area" class="area">
-      <canvas id="width_chart" class="chart_box flex_sort"></canvas>
+    <div id="horizontal_bar_chart_area" class="area">
+      <canvas
+        id="horizontal_bar_chart"
+        class="chart_box flex_sort"
+        width="600"
+        height="200"
+      ></canvas>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script
