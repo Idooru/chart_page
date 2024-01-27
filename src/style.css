@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background: whitesmoke;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.chart_box {
+  background: rgba(194, 190, 167, 0.27);
+  margin: 15px;
+  flex: 1;
+  border-radius: 20px;
+}
+
+.flex_sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.area {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#pie_chart_area {
+  width: 65%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+#width_chart_area {
+  margin-top: 20px;
+  width: 30%;
+  height: 15%;
+  display: flex;
+  background: white;
+}
+
+#pie_chart_1 {
+  flex: 1.3;
+}
+
+#vertical {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#width_chart {
+  background: rgba(194, 190, 167, 0.27);
+}
